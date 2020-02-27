@@ -1,0 +1,27 @@
+{% extends "blog/base.html" %}
+{% block content %}
+  <article class="media content-section">
+    <img class="rounded-circle article-img" src="{{ object.author.profile.image.url }}">
+    <div class="media-body">
+      <div class="article-metadata">
+        <a class="mr-2" href="url 'user-posts' object.author.username">{{ object.author }}</a>
+        <small class="text-muted">{{ object.date_posted|date:"F d, Y" }}</small>
+        {% if object.author == user %}
+          <div>
+            <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'post-update' object.id %}">Güncelle</a>
+            <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'post-delete' object.id %}">Sil</a>
+          </div>
+        {% endif %}
+      </div>
+      <h2 class="article-title">Baro Sicil Numarası :{{ object.title }}</h2>
+      <p class="article-content">Ad-Soyad :{{ object.first_name }} {{ object.last_name }}</p>
+      <p class="article-content">Uzmanlık Alanları:{{ object.uzmanlık }}</p>
+      <p class="article-content">Adres :{{ object.konum }}</p>
+      <p class="article-content">E-Mail Adresi:{{ object.email_adress }}</p>
+      <p class="article-content">Doğum Tarihi:{{ object.date_of_birth }}</p>
+      <p class="article-content">Biografi:{{ object.bio }}</p>
+      <p class="article-content">İlgi Alanları:{{ object.content }}</p>
+
+    </div>
+  </article>
+{% endblock content %}
