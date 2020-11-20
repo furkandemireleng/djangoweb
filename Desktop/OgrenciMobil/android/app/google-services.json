@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "948833781575",
+    "firebase_url": "https://eduasistraporlar.firebaseio.com",
+    "project_id": "eduasistraporlar",
+    "storage_bucket": "eduasistraporlar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948833781575:android:0a35fe43e4b8f34436ee62",
+        "android_client_info": {
+          "package_name": "com.asistek.eduasistogrenci"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948833781575-3p03fg4r7k99pup3cshh8ajb2v8q48n6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUEXeHQP99JH-LouuLJRaMStuJdZm636Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948833781575-3p03fg4r7k99pup3cshh8ajb2v8q48n6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948833781575:android:2d915bde6e8c194f36ee62",
+        "android_client_info": {
+          "package_name": "com.asistek.eduasistraporlar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948833781575-3p03fg4r7k99pup3cshh8ajb2v8q48n6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUEXeHQP99JH-LouuLJRaMStuJdZm636Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948833781575-3p03fg4r7k99pup3cshh8ajb2v8q48n6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948833781575:android:12c236e865f59fcc36ee62",
+        "android_client_info": {
+          "package_name": "com.asistek.safakogrenci"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948833781575-3p03fg4r7k99pup3cshh8ajb2v8q48n6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUEXeHQP99JH-LouuLJRaMStuJdZm636Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948833781575-3p03fg4r7k99pup3cshh8ajb2v8q48n6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
