@@ -1,0 +1,25 @@
+{% extends "blog/base.html" %}
+{% block content %}
+    <h1 class="mb-3"> {{ view.kwargs.username }} </h1>
+    {% for post in posts %}
+        <article class="media content-section">
+          <img class="rounded-circle article-img" src="{{ post.author.profile.image.url }}">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="{% url 'user-posts' post.author.username %}">{{ post.author }}</a>
+              <small class="text-muted">{{ post.date_posted|date:"F d, Y" }}</small>
+            </div>
+            <h2><a class="article-title" href="{% url 'post-detail' post.id %}">{{ post.title }}</a></h2>
+            <p class="article-content">Ad-Soyad:{{ post.first_name }} {{ post.last_name }} </p>
+            <p class="article-content">Uzmanlık:{{ post.uzmanlık }}</p>
+            <p class="article-content">Konum:{{ post.konum }}</p>
+            <p class="article-content">E-Mail:{{ post.email_adress }}</p>
+            <p class="article-content">Doğum Tarihi:{{ post.date_of_birth }}</p>
+            <p class="article-content">Biografi:{{ post.bio }}</p>
+            <p class="article-content">İlgi Alanları:{{ post.content }}</p>
+          </div>
+        </article>
+    {% endfor %}
+    
+{% endblock content %}
+   
